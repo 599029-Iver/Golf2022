@@ -1,35 +1,20 @@
 
 body{
+    display: flex;
+    justify-content: center;
 }
 #spillteSpill{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 60vw;
-    height: 50vh;
-    padding-left: 25vw;
-    padding-top: 25vh;
+    display: flex;
+    align-content: center;
+    max-width: 40vw;
 }
 .spill{
-    width: 12vw;
-    height: auto;
-    position: absolute;
-    padding-top: 3.5vw;
-    padding-bottom: 3.45vw;
-    opacity: 1;
+    overflow: hidden;
 }
-
-#spillFokus{
-    z-index: 1;
-    padding-left: 18vw;
-    position: absolute;
-    width: 16vw;
-}
-#bildeFokus{
-    width: 16vw;
+.spill:hover{
+    z-index: 5;
 }
 .bilderSpill{
-
     width: 12vw;
     opacity: 1;
-
 }
