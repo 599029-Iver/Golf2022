@@ -1,0 +1,35 @@
+
+body{
+}
+#spillteSpill{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 60vw;
+    height: 50vh;
+    padding-left: 25vw;
+    padding-top: 25vh;
+}
+.spill{
+    width: 12vw;
+    height: auto;
+    position: absolute;
+    padding-top: 3.5vw;
+    padding-bottom: 3.45vw;
+    opacity: 1;
+}
+
+#spillFokus{
+    z-index: 1;
+    padding-left: 18vw;
+    position: absolute;
+    width: 16vw;
+}
+#bildeFokus{
+    width: 16vw;
+}
+.bilderSpill{
+
+    width: 12vw;
+    opacity: 1;
+
+}
